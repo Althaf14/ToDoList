@@ -50,3 +50,18 @@ i:hover{
 .fa-solid{
     background-color: black;
 }
+
+@media screen and (max-width:767px){
+#parent-div{
+    margin-top: 40%;
+}
+#item-ul{
+    width: 255px;
+    font-size: 1.3em;
+}
+input{
+    width: 180px;
+    height: 40px;
+    font-size: 1em;
+}    
+    
