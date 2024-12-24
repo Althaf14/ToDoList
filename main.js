@@ -10,7 +10,10 @@ function addItems(){
     itemList.appendChild(li)
     itemInput.value =""
     itemInput.focus();
-    console.log(li);
+    let trashBtn = document.createElement('i');
+    trashBtn.classList.add('fa-solid','fa-trash');
+    li.appendChild(trashBtn);
+    
 }
 
 addBtn.addEventListener("click",addItems)
