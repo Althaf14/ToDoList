@@ -63,7 +63,7 @@ i:hover{
 }
 #item-ul{
     width: 255px;
-    font-size: 1.3em;
+    font-size: 0.8em;
 }
 input{
     width: 180px;
@@ -71,7 +71,7 @@ input{
     font-size: 1em;
 }   
 .fa-solid{
-    font-size: 0.7em;
+    font-size: 1.2em;
     padding-left: 1.3%;
     padding-top: 1%;
 }
