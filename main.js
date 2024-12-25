@@ -4,6 +4,7 @@ let addBtn = document.getElementById("add-btn");
 let itemList = document.getElementById("item-ul");
 let itemInputData
 
+
 function setItems(){
     localStorage.setItem("itemName",itemInputData)
 }
